@@ -1,0 +1,2 @@
+# WebAnno
+WebAnno server installation
