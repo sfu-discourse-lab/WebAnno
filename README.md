@@ -9,7 +9,7 @@ First of all, Login as the **root user** using the following command: <br>
 You're now logged in as the **root** user. Run the following commands:
 
 1.  Add the repository source: <br>
-    `echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list` <br>
+    `echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list` <br><br>
     `echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list`
 
 2.    verify it with the keys: <br>
@@ -229,18 +229,18 @@ You can exit the nano editor with `Ctrl`+`x` , then type `y` at the prompt and h
     `netstat -lp`
 <br>
   Following are the commands to run ngrok. <br>
-40.  wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-41.  unzip ngrok-stable-linux-amd64.zip
-42.  apt-get install unzip
-43.  unzip ngrok-stable-linux-amd64.zip
-45.  ./ngrok authtoken <Auth_token_from_ngrok>
-46.  ./ngrok http 18080
-47.  nano /root/.ngrok2/ngrok.yml
-48.  nohup ./ngrok http 18080
-49.  nano nohup.out
-50.  ngrok -log=stdout 18080 > ngrok.log &
-51.  ps -ef | grep ngrok
+40.  wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip <br>
+41.  unzip ngrok-stable-linux-amd64.zip <br>
+42.  apt-get install unzip <br>
+43.  unzip ngrok-stable-linux-amd64.zip <br>
+45.  ./ngrok authtoken <Auth_token_from_ngrok> <br>
+46.  ./ngrok http 18080 <br>
+47.  nano /root/.ngrok2/ngrok.yml <br>
+48.  nohup ./ngrok http 18080 <br>
+49.  nano nohup.out <br>
+50.  ngrok -log=stdout 18080 > ngrok.log & <br>
+51.  ps -ef | grep ngrok <br>
 
 ## Reference:
   [Official WebAnno Installation guide](https://webanno.github.io/webanno/releases/3.2.2/docs/admin-guide.html)
-  Installation steps are available on this link but it's not up-to-date and it assumes you have server installed with a user called *www-data*. 
+  Installation steps are available on this link but it's not up-to-date and it assumes you have server installed with a user called *www-data*.
