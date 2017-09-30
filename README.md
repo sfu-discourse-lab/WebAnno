@@ -228,7 +228,7 @@ You can exit the nano editor with `Ctrl`+`x` , then type `y` at the prompt and h
 39. Following commands will display all the active ports with the service name: <br>
     `netstat -lp`
 <br>
-  Following are the commands to run ngrok. <br>
+  Following are the commands to run ngrok. (No need to run the following commands if we are exposing the Port on web using the instance IP) <br>
 40.  wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip <br>
 41.  unzip ngrok-stable-linux-amd64.zip <br>
 42.  apt-get install unzip <br>
