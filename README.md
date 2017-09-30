@@ -240,3 +240,7 @@ You can exit the nano editor with `Ctrl`+`x` , then type `y` at the prompt and h
 49.  nano nohup.out
 50.  ngrok -log=stdout 18080 > ngrok.log &
 51.  ps -ef | grep ngrok
+
+## Reference:
+  [Official WebAnno Installation guide](https://webanno.github.io/webanno/releases/3.2.2/docs/admin-guide.html)
+  Installation steps are available on this link but it's not up-to-date and it assumes you have server installed with a user called *www-data*. 
